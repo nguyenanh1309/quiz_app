@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
       bodySizeLimit: "10mb",
     },
   },
-  serverExternalPackages: ["mammoth", "exceljs", "sanitize-html"],
+  serverExternalPackages: ["mammoth", "exceljs"],
   turbopack: {
     rules: {
       "*.css": {
